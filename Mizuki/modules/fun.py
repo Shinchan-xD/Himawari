@@ -268,7 +268,7 @@ weebyfont = [
     "丫",
     "乙",
 ]
-ABUSE_STRINGS = (
+ABUSE_STRINGS = [
     "`Owww ... Such a stupid idiot.`",
     "`Don't drink and type.`",
     "`Command not found. Just like your brain.`",
@@ -299,7 +299,7 @@ ABUSE_STRINGS = (
     "`You’re so ugly that when you cry, the tears roll down the back of your head…just to a`",
     "`If you’re talking behind my back then you’re in a perfect position to kiss my a**!.`",
     "`Hey Remdi......Tell your giving rates.`"
- )
+]
 
 @run_async
 def ABUSE(update: Update, context: CallbackContext):

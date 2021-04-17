@@ -125,7 +125,7 @@ def _check_member(client, message):
                     )
                 except ChatAdminRequired:
                     sent_message.edit(
-                        "❗ **මම මේකෙ Admin නෙමෙයි..**\n__මට Ban Permissions එක්ක Admin දීල ආපහු උත්සාහ කරන්න.. \n#Ending FSub...__"
+                        "❗ **I am not the Admin of this..** \n__Give me Admin with Ban Permissions and try again.. \n# Ending FSub...__"
                     )
 
             except ChatAdminRequired:

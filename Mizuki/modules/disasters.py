@@ -584,9 +584,9 @@ Group admins/group owners do not need these commands.
  ╠ `/runmute user group`*:* Remote un-mute
  ╚ `/ginfo username/link/ID`*:* Pulls info panel for entire group
 
- ╔ *Control heroku app*
- ╠ `/restart`*:* Restarts the bots service
- ╚ `/update`*:* Pulls the repo update and then restarts the bots service
+ ╔ *Windows self hosted only:*
+ ╠ `/reboot`*:* Restarts the bots service
+ ╚ `/gitpull`*:* Pulls the repo and then restarts the bots service
 
  ╔ *Chatbot:* 
  ╚ `/listaichats`*:* Lists the chats the chatmode is enabled in
@@ -631,7 +631,7 @@ dispatcher.add_handler(SUPPORTLIST_HANDLER)
 dispatcher.add_handler(SUDOLIST_HANDLER)
 dispatcher.add_handler(DEVLIST_HANDLER)
 
-__mod_name__ = "Disasters"
+__mod_name__ = "Disasters 💣"
 __handlers__ = [
     SUDO_HANDLER,
     SUPPORT_HANDLER,

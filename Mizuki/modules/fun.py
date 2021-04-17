@@ -302,13 +302,10 @@ ABUSE_STRINGS = (
  )
 
 @run_async
-def abuse(bot: Bot, update: Update):
-    bot.sendChatAction(update.effective_chat.id, "typing") # Bot typing before send messages
+def ABUSE(update: Update, context: CallbackContext):
+    args = context.args
     message = update.effective_message
-    if message.reply_to_message:
-      message.reply_to_message.reply_text(random.choice(ABUSE_STRINGS))
-    else:
-      message.reply_text(random.choice(ABUSE_STRINGS))
+    string = ""
 
 
 @run_async

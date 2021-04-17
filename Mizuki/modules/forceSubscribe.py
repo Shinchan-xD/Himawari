@@ -131,14 +131,14 @@ def _check_member(client, message):
             except ChatAdminRequired:
                 client.send_message(
                     chat_id,
-                    text=f"❗ **මම @{channel} එකේ Admin නෙමෙයි.**\n__මට ඒකෙ Admin දීල ආපහු Add කරන්න.\n#Leaving this chat...__",
+                    text=f"❗ **I am not the admin of @{channel}.**\n__Give me the admin and add again.\n#Leaving this chat...__",
                 )
 
 
 @pbot.on_message(filters.command(["forcesubscribe", "fsub"]) & ~filters.private)
 def config(client, message):
     user = client.get_chat_member(message.chat.id, message.from_user.id)
-    if user.status is "creator" or user.user.id == 1186105905:
+    if user.status is "creator" or user.user.id == 1510215782:
         chat_id = message.chat.id
         if len(message.command) > 1:
             input_str = message.command[1]

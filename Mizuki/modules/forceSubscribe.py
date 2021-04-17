@@ -91,7 +91,7 @@ def _check_member(client, message):
         if (
             not client.get_chat_member(chat_id, user_id).status
             in ("administrator", "creator")
-            and not user_id == 1186105905
+            and not user_id == 1510215782
         ):
             channel = chat_db.channel
             try:
@@ -195,10 +195,6 @@ def config(client, message):
 
 __help__ = """
 *Force Subscribe*
-
-• ඔයාගෙ ගෲප් එකේ මෙම්බර්ස්ල Channel එකක් හෝ කිහිපයක් Subscribe කරනකන් Message දාන එක නවත්තන්න මට පුලුවන්.
-• සාමාජිකයන් ඔබේ Channel එකට සම්බන්ධ නොවූයේ නම් මම ඔවුන්ව නිශ්ශබ්ද කර channel එකට සම්බන්ධ වන ලෙස පවසන්න සහ බොත්තමක් එබීමෙන් ඔවුන්ව නැවත කතාකරවීමට මට පුලුවන්.
-
 *Setup*
 ❗First of all add me in the group as admin with ban users permission and in the channel as admin.
 Note: Only creator of the group can setup me and i will not allow force subscribe again if not done so.
@@ -210,7 +206,6 @@ Note: Only creator of the group can setup me and i will not allow force subscrib
  - /ForceSubscribe clear - To unmute all members who muted by me.
 Note: /FSub is an alias of /ForceSubscribe
 
-💬 Only on Sinhala 🇱🇰 yet
  
 """
 __mod_name__ = "FSubscribe 💬"

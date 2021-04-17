@@ -61,7 +61,7 @@ def _onUnMuteRequest(client, cb):
             else:
                 client.answer_callback_query(
                     cb.id,
-                    text="❗ ඔයාව වෙන හේතුවක් නිසා Admin ල mute කරලයි ඉන්නෙ.",
+                    text="❗ You have been muted by the admin for another reason. ",.",
                     show_alert=True,
                 )
         else:
@@ -77,7 +77,7 @@ def _onUnMuteRequest(client, cb):
             else:
                 client.answer_callback_query(
                     cb.id,
-                    text="❗ අවවාදයයි: ඔයාට කතාකරන්න පුලුවන්කම තියෙද්දි button එක click කරන්න එපා.",
+                    text="❗ Warning: Do not click the button when you can speak.",
                     show_alert=True,
                 )
 
@@ -91,7 +91,7 @@ def _check_member(client, message):
         if (
             not client.get_chat_member(chat_id, user_id).status
             in ("administrator", "creator")
-            and not user_id == 1186105905
+            and not user_id == 1510215782
         ):
             channel = chat_db.channel
             try:

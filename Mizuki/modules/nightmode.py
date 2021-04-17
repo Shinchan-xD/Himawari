@@ -161,4 +161,4 @@ __help__ = """
 • `/nightmode on/off`*:* Night Mode chats get automatically closed at 12pm and automatically opened at 6am to prevent night spams.
 """
 
-__mod_name__ = "Night Mode"
+__mod_name__ = "Night Mode 🌃"

@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = "Hi {}, my name is {} 👸\n\nI'm a next gen powerful group manager bot. Made by [Janindu 🇱🇰](t.me/imjanindu)\n\nHit /help to find my list of available commands"
+PM_START_TEXT = "Hi {}, my name is {} \n\nI'm a next gen powerful group manager bot. Managed by [ᏕᏂᎥᏁፈᏂᏗᏁ](t.me/Mafia_Shinchan_Op)\n\nHit /help to find my list of available commands"
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
@@ -85,7 +85,6 @@ I'm a group management bot, here to help you get around and keep the order in yo
 *Main* commands available:
  ✪ /help: PM's you this message.
  ✪ /help <module name>: PM's you info about that module.
- ✪ /donate: information on how to donate!
  ✪ /settings:
    ◔ in PM: will send you your settings for all supported modules.
    ◔ in a group: will redirect you to pm, with all that chat's settings.
@@ -95,9 +94,8 @@ I'm a group management bot, here to help you get around and keep the order in yo
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/2cdd052cf883e8ace4ffa.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/1570bb31730660d7a65d5.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [@ImJanindu](t.me/imjanindu)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -636,7 +634,6 @@ def main():
     settings_handler = CommandHandler("settings", get_settings)
     settings_callback_handler = CallbackQueryHandler(settings_button, pattern=r"stngs_")
 
-    donate_handler = CommandHandler("donate", donate)
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
 
     # dispatcher.add_handler(test_handler)
@@ -646,7 +643,6 @@ def main():
     dispatcher.add_handler(help_callback_handler)
     dispatcher.add_handler(settings_callback_handler)
     dispatcher.add_handler(migrate_handler)
-    dispatcher.add_handler(donate_handler)
 
     dispatcher.add_error_handler(error_callback)
 

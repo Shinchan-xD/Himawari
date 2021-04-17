@@ -21,12 +21,10 @@ CurrencyConverter
 googletrans==3.1.0a0
 jikanpy
 speedtest-cli
-coffeehouse
 regex
 bleach
 git+https://github.com/starry69/python-markdown2.git
 wikipedia
-spamwatch
 alphabet_detector
 pyrate-limiter
 cachetools
@@ -39,3 +37,4 @@ bs4
 tswift
 pyrogram>=1.0.7
 tgCrypto>=1.2.2
+spamwatch

@@ -212,7 +212,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Mizuki to your Group",
+                                text="➕ Show me your place",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -225,12 +225,12 @@ def start(update: Update, context: CallbackContext):
                             ),
                             InlineKeyboardButton(
                                 text="📌 Updates Channel",
-                                url="https://t.me/Infinity_BOTs",
+                                url="https://t.me/Liebe_News",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🇱🇰 Developer", url="https://github.com/imjanindu"
+                                text="😎 Managed By", url="t.me/Mafia_Shinchan_Op"
                             ),
                         ],
                     ]

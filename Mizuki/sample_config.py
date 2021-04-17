@@ -34,7 +34,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "~TvNcilnAwiDCzv4P0nlL3btGqCF8~vT2GSn~NJwuq58f~vPkyp4N2YQ2RbU3xaY"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
 
     # OPTIONAL
@@ -64,7 +64,7 @@ class Config(object):
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
-    AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    AI_API_KEY = "d0ebe32534a062e5d574d3b9fb02cc265bf0bd28dc773f112138874d6871e666e1c059686d9afedf56b89e82cf3e5b634731587e044807e22ff984a19f2d3637"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 

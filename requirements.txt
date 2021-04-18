@@ -40,3 +40,4 @@ tgCrypto>=1.2.2
 spamwatch
 apscheduler
 git+git://github.com/google/chatbase-python.git
+telegraph

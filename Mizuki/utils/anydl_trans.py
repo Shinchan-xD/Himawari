@@ -51,14 +51,14 @@ Send /me to know current plan details"""
     )
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "<b>Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album.</b>"
     INVALID_UPLOAD_BOT_URL_FORMAT = "<b>URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension</b>"
-    ABUSIVE_USERS = "<b>Admins blocked you. 😂 Contact @ImJanindu</b>"
+    ABUSIVE_USERS = "<b>Admins blocked you. 😂 Contact @Mafia_Shinchan_Op</b>"
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "https://telegram.dog/FFMpegRoBot"
     EXTRACT_ZIP_INTRO_ONE = (
         "<b>Send a compressed file first, Then reply /unzip command to the file.</b>"
     )
     EXTRACT_ZIP_INTRO_THREE = "<b>Analyzing received file. ⚠️ This might take some time. Please be patient.</b>"
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
-    EXTRACT_ZIP_ERRS_OCCURED = "<b>Sorry. Errors occurred while processing compressed file. 🤒 Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ImJanindu'>Janindu</a></b>"
+    EXTRACT_ZIP_ERRS_OCCURED = "<b>Sorry. Errors occurred while processing compressed file. 🤒 Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/Mafia_Shinchsn_Op'>ᏕᏂᎥᏁፈᏂᏗᏁ</a></b>"
     EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
 You can use /rename command after receiving file to rename it with custom thumbnail support."""
     CANCEL_STR = "<b>Process Cancelled 🤒</b>"

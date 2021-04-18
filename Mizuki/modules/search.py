@@ -210,7 +210,6 @@ __help__ = f"""
 • `/phone <phone no>`*:* Get details of phone numbers.
 • `/reverse`*:* Does a *reverse image search* of the media which it was replied to.
 
-Reports bugs at @InfinityJE
 """
 
 __mod_name__ = "Search 🔍"

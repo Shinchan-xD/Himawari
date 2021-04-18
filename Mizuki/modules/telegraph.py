@@ -53,4 +53,4 @@ __help__ = """
 • `/telegraph`*:* Uploads photo to telegraph and give permanent url.
 """
 
-__mod_name__ = "Telegraph"
+__mod_name__ = "Telegraph 🔗"

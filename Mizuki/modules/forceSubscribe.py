@@ -99,7 +99,7 @@ def _check_member(client, message):
             except UserNotParticipant:
                 try:
                     sent_message = message.reply_text(
-                        "**Hello {} 🙏 \ n\nYou have not joined our @{} Channel yet 🥺 \nPlease join and touch the UnMute Me Button below.\n\n[👉 OUR CHANNEL 👈](https://t.me/{})**".format(
+                        "**Hello {} 🙏 \n\nYou have not joined our @{} Channel yet 🥺 \nPlease join and touch the UnMute Me Button below.\n\n[👉 OUR CHANNEL 👈](https://t.me/{})**".format(
                             message.from_user.mention, channel, channel
                         ),
                         disable_web_page_preview=True,

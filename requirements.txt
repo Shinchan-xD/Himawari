@@ -41,3 +41,4 @@ spamwatch
 apscheduler
 git+git://github.com/google/chatbase-python.git
 telegraph
+search_engine_parser

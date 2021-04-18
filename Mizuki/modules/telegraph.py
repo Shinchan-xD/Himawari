@@ -45,3 +45,6 @@ async def telegraph(client, message):
         )
     finally:
         os.remove(download_location)
+
+
+__mod_name__= ["Telegraph"]

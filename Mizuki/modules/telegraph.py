@@ -50,7 +50,7 @@ async def telegraph(client, message):
 __help__ = """
 *Night Mode for prevent night spam on groups*
 
-• `/telegraph`*:* Night Mode chats get automatically closed at 12pm and automatically opened at 6am to prevent night spams.
+• `/telegraph`*:* Uploads photo to telegraph and give permanent url.
 """
 
 __mod_name__ = "Telegraph"

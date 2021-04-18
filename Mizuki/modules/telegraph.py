@@ -47,4 +47,10 @@ async def telegraph(client, message):
         os.remove(download_location)
 
 
-__mod_name__= ["Telegraph"]
+__help__ = """
+*Night Mode for prevent night spam on groups*
+
+• `/telegraph`*:* Night Mode chats get automatically closed at 12pm and automatically opened at 6am to prevent night spams.
+"""
+
+__mod_name__ = "Telegraph"

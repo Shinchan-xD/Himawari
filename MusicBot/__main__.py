@@ -11,8 +11,8 @@ file.close()
 
 bot = Bot(
     ":memory:",
-    API_ID,
-    API_HASH,
+    APP_ID,
+    APP_HASH,
     bot_token=BOT_TOKEN,
     plugins=dict(root="MusicBot.modules"),
 )

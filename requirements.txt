@@ -57,4 +57,4 @@ python-arq
 future
 psutil
 wget
-node (15.+)
+node 

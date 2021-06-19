@@ -4,7 +4,7 @@ from pytgcalls import PyTgCalls
 from MusicBot.config import APP_HASH, APP_ID, SESSION_NAME
 from MusicBot.services.callsmusic import queues
 
-client = Client(SESSION_NAME, API_ID, API_HASH)
+client = Client(SESSION_NAME, APP_ID, APP_HASH)
 pytgcalls = PyTgCalls(client)
 
 

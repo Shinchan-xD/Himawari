@@ -17,5 +17,4 @@ bot = Bot(
     plugins=dict(root="MusicBot.modules"),
 )
 
-bot.start()
 run()

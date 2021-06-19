@@ -18,3 +18,7 @@ env
 saitama.session-journal
 updates.txt
 *.exe
+*.session-journal
+__pycache__
+raw_files
+downloads

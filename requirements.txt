@@ -31,7 +31,6 @@ cachetools
 telethon==1.16.4
 youtube_dl==2021.4.17
 hachoir
-asyncio
 gtts
 bs4
 tswift
@@ -44,3 +43,18 @@ telegraph
 search_engine_parser
 fontTools
 google_trans_new
+
+
+py-tgcalls
+python-dotenv
+youtube_search_python
+requests
+aiohttp
+aiofiles
+youtube_search
+search_engine_parser
+ffmpeg
+python-arq
+future
+psutil
+wget

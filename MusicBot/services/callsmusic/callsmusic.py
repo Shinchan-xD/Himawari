@@ -1,7 +1,7 @@
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
-from MusicBot.config import API_HASH, API_ID, SESSION_NAME
+from MusicBot.config import APP_HASH, APP_ID, SESSION_NAME
 from MusicBot.services.callsmusic import queues
 
 client = Client(SESSION_NAME, API_ID, API_HASH)

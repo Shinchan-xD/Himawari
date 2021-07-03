@@ -43,4 +43,4 @@ git+git://github.com/google/chatbase-python.git
 telegraph
 search_engine_parser
 fontTools
-google_trans_new==1.1.9
+google_trans_new

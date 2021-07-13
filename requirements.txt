@@ -43,4 +43,5 @@ git+git://github.com/google/chatbase-python.git
 telegraph
 search_engine_parser
 fontTools
+gogoanime-api
 google_trans_new

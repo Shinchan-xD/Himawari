@@ -45,4 +45,5 @@ search_engine_parser
 fontTools
 gogoanime-api
 google_trans_new
+aiofiles
 

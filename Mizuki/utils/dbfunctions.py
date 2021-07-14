@@ -1,3 +1,8 @@
+from Mizuki import db
+from typing import Dict, List, Union
+
+coupledb = db.couple
+
 # Couple Chooser
 
 async def _get_lovers(chat_id: int):

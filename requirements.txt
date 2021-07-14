@@ -46,4 +46,5 @@ fontTools
 gogoanime-api
 google_trans_new
 aiofiles
+pymongo
 

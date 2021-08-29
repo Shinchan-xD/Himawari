@@ -29,7 +29,7 @@ alphabet_detector
 pyrate-limiter
 cachetools
 telethon==1.23.0
-youtube_dl==2021.4.17
+youtube_dl==2021.06.06
 hachoir
 asyncio
 gtts

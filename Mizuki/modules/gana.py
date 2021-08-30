@@ -15,6 +15,8 @@ from pyrogram.types import Message
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
+from Mixuki.events import pbot as Client
+
 
 dl_limit = 0
 

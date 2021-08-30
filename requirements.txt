@@ -45,3 +45,4 @@ google_trans_new
 aiofiles
 youtube_dl
 youtube_search
+wget

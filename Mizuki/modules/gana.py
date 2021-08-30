@@ -21,7 +21,7 @@ from Mixuki.events import pbot as Client
 dl_limit = 0
 
 
-@register(pattern="^/song (.*)")
+@Client.on_message(filters.command(["music", "song"]))
 async def ytmusic(client, message: Message):
     urlissed = get_text(message)
     if not urlissed:

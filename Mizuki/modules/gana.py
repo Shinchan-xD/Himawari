@@ -19,7 +19,7 @@ from youtubesearchpython import SearchVideos
 dl_limit = 0
 
 
-@Client.on_message(filters.command(["music", "song"]))
+@register(pattern="^/song (.*)")
 async def ytmusic(client, message: Message):
     urlissed = get_text(message)
     if not urlissed:

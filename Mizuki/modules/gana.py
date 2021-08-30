@@ -13,7 +13,7 @@ import youtube_dl
 from pyrogram import filters
 from pyrogram.types import Message
 from youtube_dl import YoutubeDL
-from youtubesearchpython import SearchVideos
+from youtube_search import SearchVideos
 
 from Mixuki.events import pbot as Client
 

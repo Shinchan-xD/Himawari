@@ -1,7 +1,6 @@
 future
 emoji
 lxml
-youtube_search==2.1.0
 beautifulsoup4
 requests
 sqlalchemy==1.3.20
@@ -29,7 +28,6 @@ alphabet_detector
 pyrate-limiter
 cachetools
 telethon==1.23.0
-youtube_dl==2021.06.06
 hachoir
 asyncio
 gtts
@@ -45,3 +43,5 @@ search_engine_parser
 fontTools
 google_trans_new
 aiofiles
+youtube_dl
+youtube_search_python

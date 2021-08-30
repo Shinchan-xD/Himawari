@@ -44,4 +44,4 @@ fontTools
 google_trans_new
 aiofiles
 youtube_dl
-youtube_search_python
+youtube_search

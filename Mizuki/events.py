@@ -1,7 +1,7 @@
 from telethon import events
 
 from Mizuki import telethn
-
+from pyrogram import Client
 
 def register(**args):
     """ Registers a new message. """

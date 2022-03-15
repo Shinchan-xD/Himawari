@@ -1,3 +1,3 @@
 ## Updates going on 😏
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImJanindu/Mizuki)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shinchan-xD/Himawari)
